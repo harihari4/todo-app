@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+  margin-left: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed span {
+  text-decoration: line-through;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.buttons button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
